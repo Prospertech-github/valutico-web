@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valutico Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -14,7 +18,10 @@
             <img src="images/logo.png" alt="Valutico Logo">
         </div>
 
-        <nav>
+        <i class="fa-solid fa-bars" id="openMenu"></i>
+        <i class="fa-solid fa-xmark" id="closeMenu"></i>
+
+        <nav id="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="solutions.html">Solutions</a></li>
@@ -30,16 +37,18 @@
             <h1>The World's Leading Business Valuation Software</h1>
             <p>Valutico provides the financial services industry and valuation experts with data-driven tools to perform
                 accurate company valuations faster and more accurately than ever before.</p>
-                <div class="btns">
-                    <button class=" btn btnPrimary">Request a demo</button>
-                    <button class="btn btnSecondary">Sign Up/ Log In</button>
-                </div>
+            <div class="btns">
+                <button class=" btn btnPrimary">Request a demo</button>
+                <button class="btn btnSecondary">Sign Up/ Log In</button>
+            </div>
         </div>
         <div id="heroImg" class="padding">
             <img src="images/heroImage.png" alt="">
         </div>
 
     </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
